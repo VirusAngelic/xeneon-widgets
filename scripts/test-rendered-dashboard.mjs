@@ -1945,7 +1945,7 @@ function validateProbe(probe, viewport) {
 
 async function validateFavoritesNavigation(cdp) {
   const expectedIds = [
-    "audio", "calendar", "clipboard", "display-controls", "frigate", "game-mode", "home", "hue",
+    "audio", "calendar", "clipboard", "display-controls", "frigate", "game-blocklist", "game-mode", "home", "hue",
     "installer", "layout-editor", "marketplace", "network", "privacy", "quick-actions", "remote",
     "scenes", "setup", "shortcuts", "streaming", "system", "theme-studio", "updates", "weather", "wow-forever"
   ];
@@ -3571,7 +3571,7 @@ async function validateAllVisibleProductSurfaces(cdp, viewport) {
     console.error(`surface failure screenshot: ${screenshotPath}`);
   }
   const expectedIds = [
-    "audio", "calendar", "clipboard", "display-controls", "frigate", "game-mode", "home", "hue",
+    "audio", "calendar", "clipboard", "display-controls", "frigate", "game-blocklist", "game-mode", "home", "hue",
     "installer", "layout-editor", "marketplace", "network", "privacy", "quick-actions", "remote",
     "scenes", "setup", "shortcuts", "streaming", "system", "theme-studio", "updates", "weather", "wow-forever"
   ];
@@ -3895,7 +3895,7 @@ async function validateForcedColorsProductSurfaces(cdp) {
   }
 
   const expectedIds = [
-    "audio", "calendar", "clipboard", "display-controls", "frigate", "game-mode", "home", "hue",
+    "audio", "calendar", "clipboard", "display-controls", "frigate", "game-blocklist", "game-mode", "home", "hue",
     "installer", "layout-editor", "marketplace", "network", "privacy", "quick-actions", "remote",
     "scenes", "setup", "shortcuts", "streaming", "system", "theme-studio", "updates", "weather", "wow-forever"
   ];
